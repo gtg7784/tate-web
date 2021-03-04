@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 172px);
+  padding-left: 142px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  & > h1 {
+    color: white;
+    font-family: 'SDPress-bBasic00';
+    font-size: 112px;
+  }
+}

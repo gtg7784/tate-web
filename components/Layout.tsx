@@ -19,10 +19,6 @@ const Layout = ({ children, title = 'Tate' }: Props) => (
     </Head>
     <Header/>
     {children}
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
   </div>
 )
 

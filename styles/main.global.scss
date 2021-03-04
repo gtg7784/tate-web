@@ -1,5 +1,12 @@
 @import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@import url(https://db.onlinewebfonts.com/c/78d92c83e0557ae7f90493b169695cb6?family=SDPress-bBasic00);
+@font-face {font-family: "SDPress-bBasic00";
+  src: url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.svg#SDPress-bBasic00") format("svg"); /* iOS 4.1- */
+}
 
 html {
   padding: 0;

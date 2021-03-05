@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: calc(100vh - 172px);
+  height: 100%;
   padding-left: 142px;
   display: flex;
   flex-direction: row;
@@ -10,5 +10,55 @@
     color: white;
     font-family: 'SDPress-bBasic00';
     font-size: 112px;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  & > * {
+    margin: 0px 109px;
+  }
+
+  & > img {
+    width: 381px;
+    height: 381px;
+  }
+
+  & > p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0b0b0b;
+    margin: 0;
+  }
+}
+
+.award {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  & > * {
+    margin: 0 52px;
+  }
+
+  & > p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0b0b0b;
+  }
+}
+
+.member {
+  & > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
   }
 }

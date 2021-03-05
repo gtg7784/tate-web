@@ -1,0 +1,34 @@
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 49px;
+  padding-bottom: 28px;
+  position: relative;
+
+  & > * {
+    margin: 0;
+  }
+
+  & > span {
+    font-size: 26px;
+    font-weight: 800;
+    color: #1f2e64;
+  }
+
+  & > h3 {
+    font-family: SDFONT0;
+    font-size: 70px;
+    color: #0b0b0b;
+    font-weight: 800;
+  }
+
+  & > p {
+    position: absolute;
+    font-size: 23px;
+    font-weight: 800;
+    color: #787878;
+    white-space: nowrap;
+    bottom: 0;
+  }
+}

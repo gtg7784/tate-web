@@ -1,11 +1,14 @@
 .header {
+  position: absolute;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  // width: 100%;
+  width: calc(100% - 164px);
   height: 172px;
   padding: 0px 82px;
+  background-color: #1f2e64;
 
   & > img {
     width: 59px;

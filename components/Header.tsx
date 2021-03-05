@@ -1,22 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
-import style from '../styles/header.scss'
+import style from 'styles/header.scss'
 
 const Header = () => (
   <header className={style.header}>
-    <img src="/static/logo.png" alt=""/>
+    <img src="/static/whitelogo.svg" alt=""/>
     <ul>
       <li>
-        <Link href="">HOME</Link>
+        <Link href="#home">HOME</Link>
       </li>
       <li>
-        <Link href="">ABOUT TATE</Link>
+        <Link href="#intro">ABOUT TATE</Link>
       </li>
       <li>
-        <Link href="">MEMBERS</Link>
+        <Link href="#member">MEMBERS</Link>
       </li>
       <li>
-        <Link href="">ARTWORKS</Link>
+        <Link href="#artwork">ARTWORKS</Link>
       </li>
     </ul>
   </header>

@@ -8,3 +8,9 @@ export type User = {
   id: number
   name: string
 }
+
+export type ArtworkType = {
+  img: string,
+  name: string,
+  description: string
+}

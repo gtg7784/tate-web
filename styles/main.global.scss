@@ -8,10 +8,12 @@
   url("https://db.onlinewebfonts.com/t/78d92c83e0557ae7f90493b169695cb6.svg#SDPress-bBasic00") format("svg"); /* iOS 4.1- */
 }
 
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
 html {
   padding: 0;
   margin: 0;
-  * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+  scroll-behavior: smooth;
 }
 
 body {

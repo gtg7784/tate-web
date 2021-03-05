@@ -1,3 +1,27 @@
 .artwork {
-  
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+  margin-bottom: 56px;
+  margin-right: 48px;
+
+  & > img {
+    width: 304px;
+    height: 304px;
+    background-color: #787878;
+  }
+
+  & > h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0b0b0b;
+    margin: 32px 0px 12px 0px;
+  }
+
+  & > p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #787878;
+    margin: 0;
+  }
 }

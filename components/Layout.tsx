@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
-import Header from './Header';
-import style from '../styles/layout.scss';
-import '../styles/main.global.scss';
+import Header from 'components/Header';
+import Footer from 'components/Footer'
+import 'styles/main.global.scss';
 
 type Props = {
   children?: ReactNode
@@ -10,7 +10,7 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'Tate' }: Props) => (
-  <div className={style.body}>
+  <div>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -19,6 +19,7 @@ const Layout = ({ children, title = 'Tate' }: Props) => (
     </Head>
     <Header/>
     {children}
+    <Footer/>
   </div>
 )
 

@@ -1,10 +1,23 @@
+import React, {useEffect, useState} from 'react';
 import Layout from 'components/Layout'
 import Section from 'components/Section'
 import Title from 'components/Title'
 import Member from 'components/Member'
 import style from 'styles/index.scss'
+import axios from 'axios';
+import Artwork from 'components/Artwork';
+import { ArtworkType } from 'interfaces';
 
-const IndexPage = () => (
+const IndexPage = () => {
+  const [artwork, setArtwork] = useState<ArtworkType[]>([]);
+
+  useEffect(() => {
+    axios.get('/api/artworks').then(res => setArtwork(res.data));
+    
+    console.log(artwork)
+  }, [])
+
+  return (
   <Layout>
     <Section background="#1f2e64" id="home">
       <div className={style.container}>
@@ -83,11 +96,14 @@ const IndexPage = () => (
       </div>
     </Section>
     <Section id="artwork">
-      <div>
+      <div className={style.artwork}>
         <Title title="ARTWORKS" />
+        <div>
+          {artwork.map(item => <Artwork {...item} />)}
+        </div>
       </div>
     </Section>
   </Layout>
-)
+)}
 
 export default IndexPage

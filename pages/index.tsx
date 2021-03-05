@@ -99,7 +99,7 @@ const IndexPage = () => {
       <div className={style.artwork}>
         <Title title="ARTWORKS" />
         <div>
-          {artwork.map(item => <Artwork {...item} />)}
+          {artwork.map((item, index) => <Artwork {...item} key={index} />)}
         </div>
       </div>
     </Section>

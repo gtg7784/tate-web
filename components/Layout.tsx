@@ -14,7 +14,7 @@ const Layout = ({ children, title = 'Tate' }: Props) => (
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=1920px" />
+      <meta name="viewport" content="initial-scale=1.0, width=1920" />
       <link rel="shortcut icon" href="/static/favicon.ico" />
     </Head>
     <Header/>

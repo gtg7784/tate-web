@@ -31,9 +31,9 @@ const Footer = () => (
       </p>
     </div>
     <div className={style.snsWrap}>
-      <a><img src="" alt=""/></a>
-      <a><img src="" alt=""/></a>
-      <a><img src="" alt=""/></a>
+      <a href="https://www.facebook.com/TATEDesignResearchClub/"><img src="" alt=""/></a>
+      <a href="https://sunrint.hs.kr/"><img src="" alt=""/></a>
+      <a href=""><img src="" alt=""/></a>
     </div>
   </footer>
 )

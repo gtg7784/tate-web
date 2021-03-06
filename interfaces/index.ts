@@ -10,8 +10,8 @@ export type User = {
 }
 
 export type ArtworkType = {
-  img: string
   name: string
   description: string
   link: string
+  index?: number
 }

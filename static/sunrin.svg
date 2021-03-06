@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="43px" viewBox="0 0 37 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sunrin</title>
+    <defs>
+        <filter x="-41.4%" y="-32.4%" width="182.8%" height="164.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.000274561003 0.426255319 18.5722791 0.426255319 18.5722791 20.7879447 0.000274561003 20.7879447"></polygon>
+        <polygon id="path-4" points="0.1302 0.349046526 27.8786242 0.349046526 27.8786242 25 0.1302 25"></polygon>
+    </defs>
+    <g id="메인페이지" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="얘가-메인" transform="translate(-1463.000000, -10183.000000)">
+            <g id="Sunrint" transform="translate(1453.000000, 10172.000000)">
+                <g id="sunrin" transform="translate(14.000000, 12.000000)" filter="url(#filter-1)">
+                    <g id="Group-9">
+                        <g id="Group-3">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M18.5722791,0.425987234 C18.5722791,0.425987234 7.07816279,3.05009362 5.5077907,13.1493064 C4.58165116,19.9903915 15.5349302,18.6057319 15.5349302,18.6057319 C15.5349302,18.6057319 11.9072558,20.7209234 6.82011628,20.7879447 C1.76655814,20.6534553 0.00486046512,17.3930936 0.00486046512,15.0057957 C0.00486046512,15.0057957 -0.184255814,13.1712 1.8664186,10.2316468 C3.62281395,7.61602979 7.05076744,4.43609362 12.8192558,2.05281702 C15.3131163,1.05688085 18.5722791,0.425987234 18.5722791,0.425987234" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                        </g>
+                        <g id="Group-6" transform="translate(1.000000, 11.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <path d="M9.56068485,2.67215517 C9.56068485,2.67215517 14.4186848,0.320431034 20.3343212,0.349310345 C26.2499576,0.37862069 27.8786242,3.65922414 27.8786242,6.09844828 C27.8786242,8.53724138 26.6211697,11.1794828 23.8780182,14.0536207 C21.1344424,16.9281897 16.9832303,20.1993103 11.0468061,22.6191379 C6.18710909,24.6243103 0.1302,25.0001724 0.1302,25.0001724 C0.1302,25.0001724 9.15001818,22.2131034 16.0558364,14.9182759 C22.9616545,7.62344828 19.5066242,4.51913793 18.6865636,3.74801724 C17.8669273,2.97646552 15.9603818,1.52775862 9.56068485,2.67215517" id="Fill-4" fill="#FFFFFF" mask="url(#mask-5)"></path>
+                        </g>
+                        <path d="M24.5884989,2.49576801 C25.4971261,4.08048945 24.850667,6.26203101 23.1451154,7.36920769 C21.439147,8.47594097 19.3201283,8.08840696 18.4115011,6.50412891 C17.5028739,4.91985087 18.149333,2.73786591 19.8548846,1.63113263 C21.560853,0.523955955 23.6798717,0.911489963 24.5884989,2.49576801" id="Fill-7" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

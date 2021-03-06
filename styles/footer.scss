@@ -55,6 +55,23 @@
         border-radius: 28px;
         background-color: #1f2e64;
         margin-right: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:nth-child(1) {
+          align-items: flex-end;
+
+          & > img {
+            margin-right: -6px;
+          }
+        }
+
+        &:nth-child(2) {
+          & > img {
+            margin-bottom: -8px;
+          }
+        }
 
         &:last-child {
           margin: 0;

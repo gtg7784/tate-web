@@ -11,7 +11,7 @@ export const artworks: ArtworkType[] = [
   {name: 'FLIX - 김민주', thumbtext: '포토샵을 이용한 영화 감성 글리치 글자',  description: '포토샵을 이용한 영화 감성 글리치 글자'},
   {name: 'Fantasy - 김민주', thumbtext: '몽환적인 분위기와 크고 아름다운 성, 하늘을 나는 고래를 통한 판타지 콜라주',  description: '몽환적인 분위기와 크고 아름다운 성, 하늘을 나는 고래를 통한 판타지 콜라주'},
   {name: '자동차 모델링 - 김민주', thumbtext: 'Cinema 4D를 이용한 중형차 모델링',  description: 'Cinema 4D를 이용한 중형차 모델링'},
-  {name: '아이패드 모델링 - 김민주', thumbtext: 'Cinema 4D를 이용한 애플사의 아이패드 모델링',  description: 'Cinema 4D를 이용한 애플사의 아이패드 모델링', videoId: 'https://youtu.be/Ty8PLqU7Szg'},
+  {name: '아이패드 모델링 - 김민주', thumbtext: 'Cinema 4D를 이용한 애플사의 아이패드 모델링',  description: 'Cinema 4D를 이용한 애플사의 아이패드 모델링', videoId: 'Ty8PLqU7Szg'},
   {name: '마이멜로디 - 강유라', thumbtext: '평소 좋아하는 캐릭터를 8bit 느낌으로 구사해봤다 음영감에 중심을 주었다 !',  description: '평소 좋아하는 캐릭터를 8bit 느낌으로 구사해봤다 음영감에 중심을 주었다 !'},
   {name: '이누마키 - 강유라', thumbtext: '인기 애니메이션 캐릭터의 다양한 모습들을 콜라주 하여 한 장에 담아보았다.',  description: '인기 애니메이션 캐릭터의 다양한 모습들을 콜라주하여 한 장에 담아보았다.'},
   {name: 'earthis - 강유라', thumbtext: '내가 쓰고 싶은 노트를 직접 디자인해보고 싶어서 키치 감성으로 만들게 되었다.',  description: '내가 쓰고 싶은 노트를 직접 디자인 해보고 싶어서 키치 감성으로 만들게 되었다.'},

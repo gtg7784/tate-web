@@ -4,7 +4,7 @@ import style from 'styles/section.scss';
 type Props = {
   children?: ReactNode;
   background?: string;
-  id: string;
+  id?: string;
 }
 
 const Section = ({ children, background = '#ffffff', id}: Props) => (

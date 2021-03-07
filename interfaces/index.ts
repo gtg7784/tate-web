@@ -11,7 +11,8 @@ export type User = {
 
 export type ArtworkType = {
   name: string
+  thumbtext: string
   description: string
-  link: string
+  videoId?: string
   index?: number
 }

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Layout from 'components/Layout'
 import Section from 'components/Section'
 import Title from 'components/Title'
@@ -7,17 +7,13 @@ import style from 'styles/index.scss'
 import axios from 'axios';
 import Artwork from 'components/Artwork';
 import { ArtworkType } from 'interfaces';
+import { server } from 'config'
 
-const IndexPage = () => {
-  const [artwork, setArtwork] = useState<ArtworkType[]>([]);
+type Props = {
+  artwork: ArtworkType[]
+}
 
-  useEffect(() => {
-    axios.get('/api/artworks').then(res => setArtwork(res.data));
-    
-    console.log(artwork)
-  }, [])
-
-  return (
+const IndexPage = ({ artwork }: Props) => (
   <Layout>
     <Section background="#1f2e64" id="home">
       <div className={style.container}>
@@ -104,6 +100,14 @@ const IndexPage = () => {
       </div>
     </Section>
   </Layout>
-)}
+)
 
 export default IndexPage
+
+export async function getServerSideProps() {
+  const res = await axios.get(`${server}/api/artworks`)
+
+  return { props: {
+    artwork: res.data
+  }}
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 240px;
+
+  & > div {
+    width: 50%;
+    &:nth-child(1) {
+      margin-left: 110px;
+
+      & > img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &:nth-child(2){
+      margin-left: 80px;
+      padding-top: 128px;
+    }
+  }
+}

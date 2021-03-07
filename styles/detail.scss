@@ -18,6 +18,21 @@
     &:nth-child(2){
       margin-left: 80px;
       padding-top: 128px;
+
+      & > h1 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 45px;
+        font-weight: 900;
+        color: #1f2e64;
+        margin: 0;
+      }
+
+      & > p {
+        width: 600px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #1f2e64;
+      }
     }
   }
 }

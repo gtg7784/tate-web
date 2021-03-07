@@ -7,16 +7,16 @@ const Header = () => (
     <img src="/static/whitelogo.svg" alt=""/>
     <ul>
       <li>
-        <Link href="#home">HOME</Link>
+        <Link href="/#home">HOME</Link>
       </li>
       <li>
-        <Link href="#intro">ABOUT TATE</Link>
+        <Link href="/#intro">ABOUT TATE</Link>
       </li>
       <li>
-        <Link href="#member">MEMBERS</Link>
+        <Link href="/#member">MEMBERS</Link>
       </li>
       <li>
-        <Link href="#artwork">ARTWORKS</Link>
+        <Link href="/#artwork">ARTWORKS</Link>
       </li>
     </ul>
   </header>
